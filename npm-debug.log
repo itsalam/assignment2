@@ -1,0 +1,54 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'json2csv' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData json2csv
+8 silly fetchOtherPackageData json2csv
+9 silly cache add args [ 'json2csv', null ]
+10 verbose cache add spec json2csv
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'json2csv',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'json2csv',
+11 silly cache add   spec: '/home/vinshit/json2csv/Assignment2/json2csv',
+11 silly cache add   type: 'local' }
+12 silly addLocalTarball shasum (computed) 859fd5c1d2633289600247d9747c9d32432a92b2
+13 verbose addTmpTarball /home/vinshit/json2csv/Assignment2/json2csv not in flight; adding
+14 verbose addTmpTarball validating metadata from /home/vinshit/json2csv/Assignment2/json2csv
+15 verbose tar unpack /home/vinshit/json2csv/Assignment2/json2csv
+16 verbose tar unpacking to /tmp/npm-26096-279a597a/unpack-b468fd2d
+17 silly gentlyRm /tmp/npm-26096-279a597a/unpack-b468fd2d is being purged
+18 verbose gentlyRm don't care about contents; nuking /tmp/npm-26096-279a597a/unpack-b468fd2d
+19 silly gunzTarPerm modes [ '755', '644' ]
+20 error not a package /home/vinshit/json2csv/Assignment2/json2csv
+21 error addLocal Could not install /home/vinshit/json2csv/Assignment2/json2csv
+22 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/tmp/npm-26096-279a597a/unpack-b468fd2d/package.json'
+22 silly fetchPackageMetaData  error for json2csv { Error: ENOENT: no such file or directory, open '/tmp/npm-26096-279a597a/unpack-b468fd2d/package.json'
+22 silly fetchPackageMetaData   errno: -2,
+22 silly fetchPackageMetaData   code: 'ENOENT',
+22 silly fetchPackageMetaData   syscall: 'open',
+22 silly fetchPackageMetaData   path: '/tmp/npm-26096-279a597a/unpack-b468fd2d/package.json' }
+23 silly rollbackFailedOptional Starting
+24 silly rollbackFailedOptional Finishing
+25 silly runTopLevelLifecycles Starting
+26 silly runTopLevelLifecycles Finishing
+27 silly install printInstalled
+28 verbose stack Error: ENOENT: no such file or directory, open '/tmp/npm-26096-279a597a/unpack-b468fd2d/package.json'
+29 verbose cwd /home/vinshit/json2csv/Assignment2
+30 error Linux 4.15.0-20-generic
+31 error argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "json2csv"
+32 error node v8.10.0
+33 error npm  v3.5.2
+34 error path /tmp/npm-26096-279a597a/unpack-b468fd2d/package.json
+35 error code ENOENT
+36 error errno -2
+37 error syscall open
+38 error enoent ENOENT: no such file or directory, open '/tmp/npm-26096-279a597a/unpack-b468fd2d/package.json'
+39 error enoent ENOENT: no such file or directory, open '/tmp/npm-26096-279a597a/unpack-b468fd2d/package.json'
+39 error enoent This is most likely not a problem with npm itself
+39 error enoent and is related to npm not being able to find a file.
+40 verbose exit [ -2, true ]

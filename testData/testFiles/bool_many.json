@@ -1,0 +1,8 @@
+{   
+	"object_1":{
+		"value": true
+	},
+    "object_2":{
+        "value": false
+    }
+}
